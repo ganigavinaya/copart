@@ -1,7 +1,9 @@
 Please do the following before executing the code:
 
 npm install fast-csv
+
 npm install mysql
+
 npm install geocoder
 
 The table is created in command line(not using nodejs):
