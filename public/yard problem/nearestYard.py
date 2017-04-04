@@ -30,8 +30,8 @@ def distance(lat1, lng1, lat2, lng2):
     return radius * ang
 
 array = []
-lat2 = sys.argv[1]
-lng2 = sys.argv[2]
+lat2 = float(sys.argv[1])
+lng2 = float(sys.argv[2])
 
 
 for index, row in dataset.iterrows():
